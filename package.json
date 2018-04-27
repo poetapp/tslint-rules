@@ -1,7 +1,7 @@
 {
   "name": "@po.et/tslint-rules",
   "version": "1.0.0",
-  "description": "",
+  "description": "Po.et - Tslint rules",
   "main": "poet-tslint.json",
   "scripts": {
     "compile": "tsc",
