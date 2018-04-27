@@ -1,0 +1,6 @@
+*.log
+src
+.gitignore
+.travis.yml
+tsconfig.json
+tsint.json

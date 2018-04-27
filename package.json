@@ -1,0 +1,28 @@
+{
+  "name": "@po.et/tslint-rules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "poet-tslint.json",
+  "scripts": {
+    "compile": "tsc",
+    "build": "rimraf rules && npm run compile"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "9.6.6",
+    "rimraf": "2.6.2",
+    "typescript": "2.8.3"
+  },
+  "peerDependencies": {
+    "typescript": "^2.1.0"
+  },
+  "dependencies": {
+    "prettier": "1.12.1",
+    "tslint": "5.9.1",
+    "tslint-config-prettier": "1.12.0",
+    "tslint-eslint-rules": "5.1.0",
+    "tslint-immutable": "4.5.4",
+    "tslint-plugin-prettier": "1.3.0"
+  }
+}
