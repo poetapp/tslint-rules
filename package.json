@@ -1,11 +1,12 @@
 {
   "name": "@po.et/tslint-rules",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Po.et - Tslint rules",
   "main": "poet-tslint.json",
   "scripts": {
     "compile": "tsc",
-    "build": "rimraf rules && npm run compile"
+    "build": "rimraf rules && npm run compile",
+    "tslint:check": "tslint-config-prettier-check ./poet-tslint.json"
   },
   "author": "",
   "license": "ISC",

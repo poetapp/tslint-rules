@@ -3,5 +3,6 @@ before_install:
   - npm install -g greenkeeper-lockfile@1
 script:
   - npm run build
+  - npm run tslint:check
 after_script:
   - greenkeeper-lockfile-upload
