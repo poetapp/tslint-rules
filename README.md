@@ -2,6 +2,8 @@
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/poetapp/tslint-rules.svg)](https://greenkeeper.io/)
 
+[![Build Status](https://travis-ci.org/poetapp/tslint-rules.svg?branch=master)](https://travis-ci.org/poetapp/tslint-rules)
+
 - Install 
 
 ```
