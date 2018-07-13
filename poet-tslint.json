@@ -10,7 +10,7 @@
       "only-arrow-functions": false,
       "object-literal-sort-keys": false,
       "no-console": [true],
-      "interface-name": [true, "never-prefix"],
+      "interface-name": [false],
       "no-namespace": [false],
       "curly": [true, "as-needed"],
       "arrow-parens": false,

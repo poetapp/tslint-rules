@@ -4,8 +4,9 @@
   "description": "Po.et - Tslint rules",
   "main": "poet-tslint.json",
   "scripts": {
-    "compile": "tsc",
     "build": "rimraf rules && npm run compile",
+    "compile": "tsc",
+    "prepublish": "npm run build",
     "tslint:check": "tslint-config-prettier-check ./poet-tslint.json"
   },
   "author": "",
