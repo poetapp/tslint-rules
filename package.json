@@ -7,13 +7,15 @@
     "build": "rimraf rules && npm run compile",
     "compile": "tsc",
     "prepublish": "npm run build",
-    "tslint:check": "tslint-config-prettier-check ./poet-tslint.json"
+    "tslint:check": "tslint-config-prettier-check ./poet-tslint.json",
+    "semantic-release": "semantic-release"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "10.5.7",
     "rimraf": "2.6.2",
+    "semantic-release": "15.9.6",
     "typescript": "3.0.1"
   },
   "peerDependencies": {
