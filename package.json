@@ -19,7 +19,7 @@
     "url": "https://github.com/poetapp/tslint-rules/issues"
   },
   "dependencies": {
-    "prettier": "1.14.2",
+    "prettier": "1.14.3",
     "tslint": "5.11.0",
     "tslint-config-prettier": "1.15.0",
     "tslint-eslint-rules": "5.4.0",
