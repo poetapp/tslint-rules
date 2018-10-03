@@ -16,6 +16,7 @@
       "arrow-parens": false,
       "no-empty-interface": false,
       "member-access": false,
+      "member-ordering": false,
       "no-var-requires": false,
       "no-default-export": true,
       "no-unused-variable": true,
