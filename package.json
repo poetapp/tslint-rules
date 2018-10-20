@@ -7,7 +7,7 @@
     "build": "rimraf rules && npm run compile",
     "compile": "tsc",
     "prepublish": "npm run build",
-    "tslint:check": "tslint-config-prettier-check ./poet-tslint.json",
+    "tslint:check": "tslint -p tsconfig.json -c ./poet-tslint.json ./src/test-file.ts",
     "semantic-release": "semantic-release",
     "travis-deploy-once": "travis-deploy-once"
   },
@@ -20,12 +20,9 @@
     "url": "https://github.com/poetapp/tslint-rules/issues"
   },
   "dependencies": {
-    "prettier": "1.14.3",
     "tslint": "5.11.0",
-    "tslint-config-prettier": "1.15.0",
     "tslint-eslint-rules": "5.4.0",
-    "tslint-immutable": "4.8.0",
-    "tslint-plugin-prettier": "2.0.0"
+    "tslint-immutable": "4.8.0"
   },
   "devDependencies": {
     "@types/node": "10.12.0",

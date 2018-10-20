@@ -1,8 +1,7 @@
 {
-    "rulesDirectory": ["tslint-plugin-prettier", "./rules"],
+    "rulesDirectory": ["./rules"],
     "extends": [
       "tslint:recommended",
-      "tslint-config-prettier",
       "tslint-eslint-rules"
     ],
     "rules": {
@@ -22,6 +21,10 @@
       "no-unused-variable": true,
       "no-shadowed-variable": false,
       "no-relative-imports": true,
+      "max-line-length": {
+        "options": [120]
+      },
+      "indent": [true, "spaces", 2],
       "ordered-imports": [
         true,
         {
@@ -29,13 +32,16 @@
           "named-imports-order": "any"
         }
       ],
-      "prettier": [true, {
-        "singleQuote": true,
-        "semi": false,
-        "printWidth": 120,
-        "tabWidth": 2,
-        "trailingComma": "es5"
-      }],
+      "quotemark": [true, "single", "jsx-double"],
+      "semicolon": [true, "never"],
+      "trailing-comma": [
+        true,
+        {
+          "multiline": "always",
+          "singleline": "never",
+          "functions": "never"
+        }
+      ],
       // tslint-immutable Recommended built-in rules
       "no-var-keyword": true,
       "no-parameter-reassignment": true
