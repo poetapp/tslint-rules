@@ -18,7 +18,6 @@
       "member-ordering": false,
       "no-var-requires": false,
       "no-default-export": true,
-      "no-unused-variable": true,
       "no-shadowed-variable": false,
       "no-relative-imports": true,
       "max-line-length": {
