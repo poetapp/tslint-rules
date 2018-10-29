@@ -7,6 +7,7 @@
 
 Install:
 
+
 ```
 npm i -D @po.et/tslint-rules
 ```
