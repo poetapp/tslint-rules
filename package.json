@@ -27,7 +27,7 @@
   "devDependencies": {
     "@types/node": "10.12.2",
     "rimraf": "2.6.2",
-    "semantic-release": "15.10.7",
+    "semantic-release": "15.10.8",
     "travis-deploy-once": "5.0.9",
     "typescript": "3.1.6"
   },
