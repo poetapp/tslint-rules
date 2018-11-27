@@ -20,6 +20,7 @@
       "no-default-export": true,
       "no-shadowed-variable": false,
       "no-relative-imports": true,
+      "no-return-await": true,
       "max-line-length": {
         "options": [120]
       },
