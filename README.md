@@ -21,3 +21,7 @@ In `tslint.json`, add the extension:
   ]
 }
 ```
+
+## [Contributing](https://github.com/poetapp/documentation/blob/master/CONTRIBUTING.md)
+
+## [Security](https://github.com/poetapp/documentation/blob/master/SECURITY.md)
