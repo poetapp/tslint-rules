@@ -21,6 +21,14 @@
       "no-shadowed-variable": false,
       "no-relative-imports": true,
       "no-return-await": true,
+      "no-any": {
+        "severity": "warning",
+        "options": [true]
+      },
+      "no-unsafe-any": {
+        "severity": "warning",
+        "options": [true]
+      },
       "max-line-length": {
         "options": [120]
       },
