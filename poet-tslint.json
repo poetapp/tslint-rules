@@ -52,6 +52,22 @@
       ],
       // tslint-immutable Recommended built-in rules
       "no-var-keyword": true,
-      "no-parameter-reassignment": true
+      "no-parameter-reassignment": true,
+      "no-magic-numbers": {
+        "severity": "warning",
+        "options": [true]
+      },
+      "no-implicit-dependencies": {
+        "severity": "warning",
+        "options": [true]
+      },
+      "comment-format": {
+        "severity": "warning",
+        "options": [true]
+      },
+      "promise-function-async": {
+        "severity": "warning",
+        "options": [true]
+      }
     }
   }
