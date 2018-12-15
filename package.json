@@ -28,7 +28,7 @@
     "@types/node": "10.12.15",
     "rimraf": "2.6.2",
     "semantic-release": "15.12.5",
-    "travis-deploy-once": "5.0.10",
+    "travis-deploy-once": "5.0.11",
     "typescript": "3.2.2"
   },
   "peerDependencies": {
