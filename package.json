@@ -20,7 +20,7 @@
     "url": "https://github.com/poetapp/tslint-rules/issues"
   },
   "dependencies": {
-    "tslint": "5.11.0",
+    "tslint": "5.12.0",
     "tslint-eslint-rules": "5.4.0",
     "tslint-immutable": "5.0.0"
   },
