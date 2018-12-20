@@ -57,10 +57,6 @@
         "severity": "warning",
         "options": [true]
       },
-      "no-implicit-dependencies": {
-        "severity": "warning",
-        "options": [true]
-      },
       "comment-format": {
         "severity": "warning",
         "options": [true]
